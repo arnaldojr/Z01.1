@@ -12,7 +12,3 @@ begin
    q <=  not(a);
 end rtl;
 
-architecture rtl of Not16 is
-begin
-   q <=  not(a);
-end rtl;
