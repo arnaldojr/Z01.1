@@ -8,3 +8,12 @@ entity Mux16 is
 			sel: in  STD_LOGIC;
 			q:   out STD_LOGIC_VECTOR(15 downto 0));
 end entity;
+
+architecture rtl of Mux16 is
+begin
+
+    q <=	a when sel="0" else
+			b when sel="1" else
+			"ZZZZZZZZZZZZZZZZ";
+
+end rtl;

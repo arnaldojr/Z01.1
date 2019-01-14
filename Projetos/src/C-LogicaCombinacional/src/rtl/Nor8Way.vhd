@@ -13,3 +13,8 @@ entity Nor8Way is
 			h:   in  STD_LOGIC;
 			q:   out STD_LOGIC);
 end entity;
+
+architecture rtl of Nor8Way is
+begin
+   q <=  a nor b nor c nor d nor e nor f nor g nor h;
+end rtl;
