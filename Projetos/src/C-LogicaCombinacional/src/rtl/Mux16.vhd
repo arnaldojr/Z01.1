@@ -12,8 +12,8 @@ end entity;
 architecture rtl of Mux16 is
 begin
 
-    q <=	a when sel="0" else
-			b when sel="1" else
+    q <=	a when sel='0' else
+			b when sel='1' else
 			"ZZZZZZZZZZZZZZZZ";
 
 end rtl;

@@ -11,5 +11,5 @@ end entity;
 
 architecture rtl of nand_vhdl is
 begin
-   q <=  c nand b;
+   q <=  a nand b;
 end rtl;

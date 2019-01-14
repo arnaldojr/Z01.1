@@ -15,6 +15,7 @@ entity Nor8Way is
 end entity;
 
 architecture rtl of Nor8Way is
+
 begin
-   q <=  a nor b nor c nor d nor e nor f nor g nor h;
+   q <=  not (a or b or c or d or e or f or g or h);
 end rtl;
