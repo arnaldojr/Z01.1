@@ -19,5 +19,5 @@ q <=	a when (sel = "00") else
 		b when (sel = "01") else
 		c when (sel = "10") else
 		d when (sel = "11") else
-		'Z';
+		'0';
 end rtl;

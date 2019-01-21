@@ -26,6 +26,6 @@ begin
 			f when sel="101" else
 			g when sel="110" else
 			h when sel="111" else
-			"ZZZZZZZZZZZZZZZZ";
+			"0000000000000000";
 
 end rtl;

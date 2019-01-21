@@ -15,5 +15,5 @@ begin
 
 q <=	a when (sel = '0') else
 		b when (sel = '1') else
-		'Z';
+		'0';
 end rtl;

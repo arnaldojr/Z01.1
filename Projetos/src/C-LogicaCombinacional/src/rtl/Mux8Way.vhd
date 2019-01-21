@@ -26,6 +26,6 @@ begin
 			f when sel="101" else
 			g when sel="110" else
 			h when sel="111" else
-			'Z';
+			'0';
 
 end rtl;

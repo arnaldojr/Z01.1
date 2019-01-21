@@ -14,6 +14,6 @@ begin
 
     q <=	a when sel='0' else
 			b when sel='1' else
-			"ZZZZZZZZZZZZZZZZ";
+			"00000000000000000";
 
 end rtl;
