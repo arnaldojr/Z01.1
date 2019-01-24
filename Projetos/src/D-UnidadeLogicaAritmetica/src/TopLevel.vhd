@@ -21,6 +21,7 @@ entity TopLevel is
 		SW      : in  std_logic_vector(9 downto 0);
 		LEDR    : out std_logic_vector(9 downto 0)
 	);
+
 end entity;
 
 ----------------------------

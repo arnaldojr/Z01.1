@@ -1,0 +1,24 @@
+|BinaryDigit
+clock => FlipFlopD:dff1.clock
+input => Mux2Way:mux.a
+load => Mux2Way:mux.sel
+output <= FlipFlopD:dff1.q
+
+
+|BinaryDigit|Mux2Way:mux
+a => q.DATAB
+b => q.DATAB
+sel => q.OUTPUTSELECT
+sel => q.OUTPUTSELECT
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BinaryDigit|FlipFlopD:dff1
+clock => q~reg0.CLK
+d => q~reg0.DATAIN
+clear => q~reg0.ACLR
+clear => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

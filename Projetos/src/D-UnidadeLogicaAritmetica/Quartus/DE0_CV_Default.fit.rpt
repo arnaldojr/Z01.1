@@ -1,5 +1,5 @@
 Fitter report for DE0_CV_Default
-Wed Jan 23 10:34:28 2019
+Wed Jan 23 14:16:52 2019
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -59,7 +59,7 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Wed Jan 23 10:34:28 2019       ;
+; Fitter Status                   ; Successful - Wed Jan 23 14:16:52 2019       ;
 ; Quartus Prime Version           ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
 ; Revision Name                   ; DE0_CV_Default                              ;
 ; Top-level Entity Name           ; TopLevel                                    ;
@@ -1809,7 +1809,7 @@ Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X0_Y11 to location X10_Y22
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.44 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.34 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -1818,10 +1818,10 @@ Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:02
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file /home/elementos/Z01.1-arnaldo/Projetos/src/D-UnidadeLogicaAritmetica/Quartus/DE0_CV_Default.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 202 warnings
-    Info: Peak virtual memory: 1719 megabytes
-    Info: Processing ended: Wed Jan 23 10:34:28 2019
-    Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:18
+    Info: Peak virtual memory: 1717 megabytes
+    Info: Processing ended: Wed Jan 23 14:16:52 2019
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:19
 
 
 +----------------------------+

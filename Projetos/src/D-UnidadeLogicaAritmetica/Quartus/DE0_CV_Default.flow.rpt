@@ -1,5 +1,5 @@
 Flow report for DE0_CV_Default
-Wed Jan 23 10:34:36 2019
+Wed Jan 23 14:17:01 2019
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Wed Jan 23 10:34:33 2019       ;
+; Flow Status                     ; Successful - Wed Jan 23 14:16:57 2019       ;
 ; Quartus Prime Version           ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
 ; Revision Name                   ; DE0_CV_Default                              ;
 ; Top-level Entity Name           ; TopLevel                                    ;
@@ -68,7 +68,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/23/2019 10:34:00 ;
+; Start date & time ; 01/23/2019 14:16:23 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DE0_CV_Default      ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ agreement for further details.
 +-------------------------------------+----------------------------------------+--------------------------------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value                        ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+--------------------------------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 8796761950287.154824684009341          ; --                                   ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 8796761950287.154826018306808          ; --                                   ; --          ; --         ;
 ; FITTER_EFFORT                       ; Standard Fit                           ; Auto Fit                             ; --          ; --         ;
 ; FLOW_ENABLE_RTL_VIEWER              ; On                                     ; Off                                  ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --                                   ; --          ; --         ;
@@ -105,11 +105,11 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:12     ; 1.0                     ; 1020 MB             ; 00:00:14                           ;
-; Fitter                    ; 00:00:16     ; 1.0                     ; 1719 MB             ; 00:00:18                           ;
-; Assembler                 ; 00:00:04     ; 1.0                     ; 953 MB              ; 00:00:04                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 1069 MB             ; 00:00:03                           ;
-; Total                     ; 00:00:35     ; --                      ; --                  ; 00:00:39                           ;
+; Analysis & Synthesis      ; 00:00:12     ; 1.0                     ; 1016 MB             ; 00:00:15                           ;
+; Fitter                    ; 00:00:17     ; 1.0                     ; 1717 MB             ; 00:00:19                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 946 MB              ; 00:00:04                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 1070 MB             ; 00:00:03                           ;
+; Total                     ; 00:00:36     ; --                      ; --                  ; 00:00:41                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
